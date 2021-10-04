@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://3x3shop.ru/sitemap-index.xml
