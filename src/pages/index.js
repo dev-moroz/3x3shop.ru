@@ -94,18 +94,10 @@ export default (() => {
 								color="--primary"
 								cursor="default"
 							/>
-							<Override slot="link-about">
-								О нас
-							</Override>
-							<Override slot="link-team">
-								Команда
-							</Override>
-							<Override slot="link-work">
-								Работы
-							</Override>
-							<Override slot="link-contact">
-								Контакты
-							</Override>
+							<Override slot="link-about" />
+							<Override slot="link-team" />
+							<Override slot="link-work" />
+							<Override slot="link-contact" />
 						</Override>
 						<Override slot="icon,icon-close" category="md" icon={MdMenu} />
 						<Override slot="icon" category="md" icon={MdMenu} size="36px" />
@@ -170,28 +162,20 @@ export default (() => {
 				order="0"
 				align-self="auto"
 			/>
-			<Text
-				color="--light"
-				font="--headline1"
-				margin="16px 0px 0px 0px"
-				sm-text-align="center"
-				sm-width="80%"
-				lg-text-align="center"
-				lg-font="--headline2"
+			<Components.QuarklycommunityKitLoopText
+				slides="Аренда,Продажа,3D-контент"
+				fade
+				align-self="center"
+				order="0"
+				display="block"
 			>
-				Make a Difference.
-			</Text>
-			<Text
-				font="--lead"
-				color="--light"
-				margin="10px 0px 35px 0px"
-				sm-text-align="center"
-				sm-width="80%"
-				opacity="0.7"
-				md-text-align="center"
-			>
-				Supercharge your personal and professional success with a beautifully crafted website.
-			</Text>
+				<Override slot="Before Text" border-color="#000000" color="#ffffff">
+					Голографические
+				</Override>
+				<Override slot="After Text" color="#ffffff">
+					вентиляторы
+				</Override>
+			</Components.QuarklycommunityKitLoopText>
 			<Link
 				href="#mission"
 				text-decoration-line="initial"
@@ -203,7 +187,7 @@ export default (() => {
 				hover-transform="translateY(-4px)"
 				transition="transform --transitionDuration-fast --transitionTimingFunction-easeInOut 0s"
 			>
-				Learn More
+				Оставить заявку
 			</Link>
 		</Section>
 		<Section
@@ -1243,6 +1227,7 @@ export default (() => {
 				{"    "}
 			</Stack>
 		</Section>
+		<Components.QuarklycommunityKitLoopText />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

@@ -20,7 +20,7 @@ export default {
 		},
 		"615abb7e29a0a1001e6c97e3": {
 			"id": "615abb7e29a0a1001e6c97e3",
-			"name": "index",
+			"name": "Главная",
 			"pageUrl": "index",
 			"seo": {
 				"title": "Home | Website Example",
@@ -33,7 +33,7 @@ export default {
 		"615abb7e29a0a1001e6c97e5": {
 			"id": "615abb7e29a0a1001e6c97e5",
 			"pageUrl": "about",
-			"name": "About",
+			"name": "О нас",
 			"seo": {
 				"og:image": "https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/website-example-quarkly.png?v=2020-11-05T19:48:01.806Z",
 				"title": "About | Website Example",
@@ -45,7 +45,7 @@ export default {
 		"615abb7e29a0a1001e6c97e7": {
 			"id": "615abb7e29a0a1001e6c97e7",
 			"pageUrl": "work",
-			"name": "Work",
+			"name": "Портфолио",
 			"seo": {
 				"og:image": "https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/website-example-quarkly.png?v=2020-11-05T19:48:01.806Z",
 				"title": "Work | Website Example",
@@ -57,7 +57,7 @@ export default {
 		"615abb7e29a0a1001e6c97e9": {
 			"id": "615abb7e29a0a1001e6c97e9",
 			"pageUrl": "team",
-			"name": "Team",
+			"name": "Команда",
 			"seo": {
 				"og:image": "https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/website-example-quarkly.png?v=2020-11-05T19:48:01.806Z",
 				"title": "Team | Website Example",
@@ -69,7 +69,7 @@ export default {
 		"615abb7e29a0a1001e6c97eb": {
 			"id": "615abb7e29a0a1001e6c97eb",
 			"pageUrl": "contact",
-			"name": "Contact",
+			"name": "Контакты",
 			"seo": {
 				"og:image": "https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/website-example-quarkly.png?v=2020-11-05T19:48:01.806Z",
 				"title": "Contact | Website Example",
