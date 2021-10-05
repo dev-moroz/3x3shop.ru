@@ -3,12 +3,42 @@ import { transformVar } from "@quarkly/atomize";
 import { createGlobalStyle } from "styled-components";
 
 const pageStyles = {
-    "404": {},
-    "index": {},
-    "about": {},
-    "team": {},
-    "work": {},
-    "contact": {}
+    "404": {
+        "width": "",
+        "height": "",
+        "overflow-x": "visible",
+        "font": "16px "
+    },
+    "index": {
+        "width": "",
+        "height": "",
+        "overflow-x": "visible",
+        "font": "16px "
+    },
+    "about": {
+        "width": "",
+        "height": "",
+        "overflow-x": "visible",
+        "font": "16px "
+    },
+    "team": {
+        "width": "",
+        "height": "",
+        "overflow-x": "visible",
+        "font": "16px "
+    },
+    "work": {
+        "width": "",
+        "height": "",
+        "overflow-x": "visible",
+        "font": "16px "
+    },
+    "contact": {
+        "width": "",
+        "height": "",
+        "overflow-x": "visible",
+        "font": "16px "
+    }
 };
 
 const PageStyles = createGlobalStyle`

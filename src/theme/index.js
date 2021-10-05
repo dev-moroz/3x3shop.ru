@@ -79,7 +79,7 @@ export default {
 		"flipY": "scaleY(-1)"
 	},
 	"transition": {
-		"opacityOut": "opacity --transitionDuration-normal --transitionTimingFunction-easeOut",
+		"opacityOut": "opacity --transitionDuration-normal --transitionTimingFunction-easeOut 0s",
 		"transformOut": "transform --transitionDuration-normal --transitionTimingFunction-easeOut",
 		"transformInOut": "transform --transitionDuration-normal --transitionTimingFunction-easeInOut"
 	},
@@ -158,5 +158,5 @@ export default {
 		}
 	},
 	"fonts": {},
-	"version": 1
+	"version": 4
 }

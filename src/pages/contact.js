@@ -163,7 +163,7 @@ export default (() => {
 						text-align="center"
 						md-font="--headline2"
 					>
-						Contact Us.
+						Свяжитесь с нами
 					</Text>
 					{"    "}
 				</StackItem>
@@ -214,7 +214,7 @@ export default (() => {
 						quarkly-title="Title"
 						md-font="--headline3"
 					>
-						Get in Touch.
+						Оставьте свои контакты
 					</Text>
 					<Text
 						font="--base"
@@ -224,7 +224,7 @@ export default (() => {
 						color="--dark"
 						md-font="--base"
 					>
-						Feel free to contact us anytime. We'll get back to you as soon as possible!
+						Наши специалисты свяжутся с вами в любое время
 					</Text>
 					<Formspree
 						errorMessage="Something went wrong"
@@ -246,7 +246,7 @@ export default (() => {
 						/>
 						<Input
 							name="name"
-							placeholder="Name"
+							placeholder="Ваше Имя"
 							width="66.66%"
 							margin="0px 4px 10px 0px"
 							type="text"
@@ -255,7 +255,7 @@ export default (() => {
 						/>
 						<Input
 							name="tel"
-							placeholder="Phone"
+							placeholder="Ваш Телефон"
 							width="66.66%"
 							margin="0px 4px 10px 0px"
 							type="tel"
@@ -263,7 +263,7 @@ export default (() => {
 							lg-width="100%"
 						/>
 						<Button width="66.66%" lg-width="100%">
-							Submit
+							Отправить
 						</Button>
 					</Formspree>
 					{"    "}
@@ -291,7 +291,7 @@ export default (() => {
 							text-transform="uppercase"
 							xl-margin="0px 0px 4px 0px"
 						>
-							Our location
+							Наш адрес
 						</Text>
 						<Text
 							font="--base"
@@ -301,7 +301,7 @@ export default (() => {
 							quarkly-title="Description"
 							color="--dark"
 						>
-							4998 Hanover Street, New York, 10011
+							ул. Яхтенная, 1 корпус 1, Санкт-Петербург, 197374
 						</Text>
 					</Box>
 					<Box margin="0px 0px 36px 0px" quarkly-title="Working Hours" xl-margin="0px 0px 24px 0px">
@@ -314,7 +314,7 @@ export default (() => {
 							text-transform="uppercase"
 							xl-margin="0px 0px 4px 0px"
 						>
-							WORKING HOURS
+							Рабочие часы
 						</Text>
 						<Text
 							font="--base"
@@ -324,7 +324,7 @@ export default (() => {
 							quarkly-title="Description"
 							color="--dark"
 						>
-							6:00 a.m. - 10:00 p.m.
+							9:00 - 22:00
 						</Text>
 					</Box>
 					<Box margin="0px 0px 36px 0px" quarkly-title="Contact" xl-margin="0px 0px 24px 0px">
@@ -337,10 +337,10 @@ export default (() => {
 							text-transform="uppercase"
 							xl-margin="0px 0px 4px 0px"
 						>
-							Contact us
+							Наша почта
 						</Text>
 						<Link
-							href="mailto:hello@company.com"
+							href="mailto:ZAKAZ.PROMOVSN@GMAIL.COM"
 							color="--dark"
 							opacity="0.6"
 							target="_blank"
@@ -357,7 +357,7 @@ export default (() => {
 							text-decoration-line="initial"
 							hover-text-decoration-line="underline"
 						>
-							hello@company.com
+							ZAKAZ.PROMOVSN@GMAIL.COM
 						</Link>
 					</Box>
 					<Box margin="0px 0px 36px 0px" quarkly-title="Working Hours" xl-margin="0px 0px 24px 0px">
@@ -370,10 +370,10 @@ export default (() => {
 							text-transform="uppercase"
 							xl-margin="0px 0px 4px 0px"
 						>
-							Call us
+							Телефон
 						</Text>
 						<Link
-							href="tel:+1(234)567-89-00"
+							href="tel:+7 (812) 666-68-80"
 							target="_blank"
 							quarkly-title="Phone"
 							overflow-wrap="normal"
@@ -390,7 +390,7 @@ export default (() => {
 							transition="opacity .15s ease 0s"
 							font="--base"
 						>
-							+1(234)567-89-00
+							+7 (812) 666-68-80
 						</Link>
 					</Box>
 					<Text
@@ -440,7 +440,7 @@ export default (() => {
 				text-transform="uppercase"
 				lg-margin="0px 0px 6px 0px"
 			>
-				The team
+				Наша команда
 			</Text>
 			<Text
 				font="--headline2"
