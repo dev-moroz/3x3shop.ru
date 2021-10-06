@@ -37,7 +37,7 @@ export default {
 		"lightD1": "#EDF2F6",
 		"lightD2": "#E4E8EC",
 		"green": "#00875A",
-		"primary": "#035ee2",
+		"primary": "#1d40ff",
 		"secondary": "#FFC400",
 		"orange": "#FF7C22",
 		"red": "#DE350B",
@@ -70,7 +70,8 @@ export default {
 	},
 	"background": {
 		"primaryGradient": "linear-gradient(180deg, --color-primary, transparent) no-repeat 0 0",
-		"secondaryGradient": "linear-gradient(180deg, --color-secondary, transparent) no-repeat 0 0"
+		"secondaryGradient": "linear-gradient(180deg, --color-secondary, transparent) no-repeat 0 0",
+		"dark": "#141212"
 	},
 	"transform": {
 		"rotate90": "rotate(90deg)",
@@ -158,5 +159,5 @@ export default {
 		}
 	},
 	"fonts": {},
-	"version": 5
+	"version": 12
 }
